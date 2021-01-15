@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card game</title>
+    <meta name="google-signin-client_id" content="288005615578-2bf0d1i4a2v3ajdbm3u5poabrtth0tlk.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<body>
+
+    <h1>CARD GAME TIME BABY</h1>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <div id = "game">
+        <h2 id="user1"></h2>
+        <p id="playerOneScore">Score: </p>
+        <img src="resources/card.jpg">
+        <h2>Opponent is: </h2>
+        <input type = "text">
+        <p id = "playerTwoScore">Score: </p>
+        <button id="next">Draw next card</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
